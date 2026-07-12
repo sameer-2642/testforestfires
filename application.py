@@ -3,13 +3,14 @@ from flask import Flask, request, jsonify, render_template
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
+import os
 
 application = Flask(__name__)
 app = application
 
 # import ridge regressor and standard scaler pickle
-ridge_model = pickle.load(open(r"E:\PYTHON_KrishNaik\Project-1\models\rigde.pkl", "rb"))
-standard_scaler = pickle.load(open(r"E:\PYTHON_KrishNaik\Project-1\models\scaler.pkl", "rb"))
+ridge_model = pickle.load(open("models/rigde.pkl", "rb"))
+standard_scaler = pickle.load(open("models/scaler.pkl", "rb"))
 
 
 @app.route("/")
