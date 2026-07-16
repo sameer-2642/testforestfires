@@ -4,4 +4,4 @@ python aapp.py
 
 To access your flask application open new tab in and paste the url:
 
-https://{your_ur1}.pwskills.app:5000/
+http://testfire-env.eba-tpfibvea.us-east-1.elasticbeanstalk.com/predictdata
