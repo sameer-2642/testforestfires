@@ -1,6 +1,6 @@
 To run flask application
 
-python aapp.py
+python application.py
 
 To access your flask application open new tab in and paste the url:
 
